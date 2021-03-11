@@ -1,0 +1,22 @@
+GET http://localhost:2001/sai
+Content-Type: application/json 
+
+{
+     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDQ5MzA2MTQxOTMwMjE1NzA1NmQ5MDQiLCJyb2xsIjoidXNlciIsImlhdCI6MTYxNTQxMjE0OCwiZXhwIjoxNjE1NDk4NTQ4fQ.P_FcD3Rux3zI-2PdF1urhkQhg6PMKyoCis4FKxqruLc"
+}
+
+
+
+# # {
+# #     "userId": "60493061419302157056d904"
+# # }
+
+
+
+# POST http://localhost:2001/api/login
+# Content-Type: application/json
+
+# {
+#     "email": "sai@gmail.com", 
+#     "password": "9989860557"
+# }

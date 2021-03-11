@@ -1,0 +1,34 @@
+{
+  "name": "fooddeliver",
+  "version": "1.0.0",
+  "description": "takeleaf task fullstack developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshnvr/fooddeliver.git"
+  },
+  "author": "venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateshnvr/fooddeliver/issues"
+  },
+  "homepage": "https://github.com/venkateshnvr/fooddeliver#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "loadsh": "0.0.4",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "validator": "^13.5.2"
+  }
+}
